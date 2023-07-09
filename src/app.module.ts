@@ -4,7 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { User } from './typeorm/entities/User';
 import { UsersModule } from './users/users.module';
-import { UsersController } from './src/users/controllers/users/users.controller';
+import { UsersController } from './users/controllers/users/users.controller';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
